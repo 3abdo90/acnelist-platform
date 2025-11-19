@@ -1,0 +1,11 @@
+# robots.txt for Acnelist.com
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location (update this URL after deployment)
+Sitemap: https://acnelist.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1

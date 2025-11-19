@@ -1,20 +1,5 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "framework": "vite",
-  "env": {
-    "VITE_APP_TITLE": "Acnelist",
-    "VITE_APP_LOGO": "/logo.svg"
-  },
-  "headers": [
-    {
-      "source": "/public/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    }
-  ]
+  "buildCommand": "pnpm install && pnpm run build",
+  "outputDirectory": "dist/public",
+  "installCommand": "pnpm install"
 }
